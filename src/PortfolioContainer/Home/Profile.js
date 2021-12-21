@@ -61,7 +61,7 @@ export default function Profile() {
                     Hire Me {" "}
                   </button>
                   <a href='#'>
-                    <button className='btn btn-primary'>Yeet</button>
+                    <button className='btn highlighted-btn'>Yeet</button>
                   </a>
                 </div>
             </div>
