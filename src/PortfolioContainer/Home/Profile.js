@@ -14,7 +14,7 @@ export default function Profile() {
                       <i className='fa fa-facebook-square'></i>
                     </a>
                     <a href='#'>
-                      <i className='fa fa-google-plus-square'></i>
+                      <i className='fa fa-linkedin'></i>
                     </a>
                     <a href='#'>
                       <i className='fa fa-instagram'></i>
@@ -43,9 +43,9 @@ export default function Profile() {
                         1500,
                         "Designer",
                         1500,
-                        "Problem-Solver",
+                        "Thinker",
                         1500,
-                        "Coffee Lover",
+                        "Problem-Solver",
                         1500,
                       ]} ejrfejrofierogjoieger
                       />
