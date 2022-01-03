@@ -13,7 +13,7 @@ export default function AboutMe(props) {
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler)
 
     const SCREEN_CONSTSANTS = {
-      description: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah .",
+      description: "Front-End Developer with knowledge in both client and server-side development to create dynamic websites and web applications. Currently focusing on client-side development leveraging my knowledge in HTML, CSS, and JavaScript with modern tools providing cutting-edge user interfaces and optimal performance across all browsers. Agile and team-oriented with a passion for continuous learning, best code practices, and problem-solving.",
       highlights: {
         skills: [
           "React","Javascript ES6+","CSS","HTML","SCSS","SASS","GitHub","Markup", "UI Design", "UI Experience","Google Analytics", "Google Tag Manager", "Enhanced Ecoommerce GA","Tailwinds","Bootstrap", "Wordpress", "Figma", "Adobe Photoshop", "SEO"
