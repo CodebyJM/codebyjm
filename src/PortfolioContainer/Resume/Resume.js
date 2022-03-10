@@ -37,6 +37,7 @@ const Resume = (props) => {
         </div>
         <div className="resume-heading-description">
           <span>{props.description ? props.description : ""}</span>
+          
         </div>
       </div>
     );
@@ -60,19 +61,22 @@ const Resume = (props) => {
       title: "Personal Portfolio Website",
       duration: {fromDate: "2020", toDate: "2021"},
       description: "My Website",
-      subHeading: "Tech Used: React JS, Bootstrap"
+      subHeading: "Tech Used: React JS, Bootstrap",
+      button: "View Project"
     },
     {
       title: "Ecommerce Website",
       duration: {fromDate: "2020", toDate: "2021"},
       description: "My full time job, built an ecommerce website along with a custom user portal to recieve their results",
-      subHeading: "Tech Used: Wordpress, PHP, Laravel"
+      subHeading: "Tech Used: Wordpress, PHP, Laravel",
+      button: "View Project"
     },
     {
       title: "Ecommerce Website",
       duration: {fromDate: "2020", toDate: "2021"},
       description: "My full time job, built an ecommerce website along with a custom user portal to recieve their results",
-      subHeading: "Tech Used: Wordpress, PHP, Laravel"
+      subHeading: "Tech Used: Wordpress, PHP, Laravel",
+      button: "View Project"
     }
   ];
 
@@ -206,7 +210,9 @@ const Resume = (props) => {
           </div>
 
           <div className="resume-bullet-details">{getResumeScreens()}</div>
-        </div>
+
+          
+        </div>        
       </div>
     </div>
   );
